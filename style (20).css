@@ -1,3 +1,64 @@
+body {
+   gap: 8px;
+}
+.logo {
+   margin: 0;
+   padding:0 ;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color:white;
+   color:rgb(48, 130, 197);
+}
+nav {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+a {
+   text-decoration: none;
+}
+li {
+
+   list-style: none;
+}
+ul {
+   display: flex;
+   gap: 15px;
+}
+h1 {
+   color:rgb(48, 130, 197) ;
+   
+}
+.hero {
+  background-image: url(IMG-20250203-WA0061.jpg);
+  height: 700px;
+  background-size: cover;
+  padding-bottom: 33px;
+}
+.content {
+   padding: 300px;
+}
+button {
+   height: 30px;
+   width: 150px;
+   background-color: rgb(0, 153, 255);
+   border-radius: 10px;
+   border: white;
+   color: white;
+}
+i {
+   background-color:  rgb(0, 153, 255);
+   border-radius: 10px;
+   color: white;
+   padding: 7px;
+   display: flex;
+   justify-content: space-evenly;
+}
+span {
+   color: white;
+}
+
+
+
 
 
 .container {
