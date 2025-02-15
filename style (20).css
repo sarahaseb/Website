@@ -1,3 +1,64 @@
+body {
+   gap: 8px;
+}
+.logo {
+   margin: 0;
+   padding:0 ;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color:white;
+   color:rgb(48, 130, 197);
+}
+nav {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+a {
+   text-decoration: none;
+}
+li {
+
+   list-style: none;
+}
+ul {
+   display: flex;
+   gap: 15px;
+}
+h1 {
+   color:rgb(48, 130, 197) ;
+   
+}
+.hero {
+  background-image: url(IMG-20250203-WA0061.jpg);
+  height: 700px;
+  background-size: cover;
+  padding-bottom: 33px;
+}
+.content {
+   padding: 300px;
+}
+button {
+   height: 30px;
+   width: 150px;
+   background-color: rgb(0, 153, 255);
+   border-radius: 10px;
+   border: white;
+   color: white;
+}
+i {
+   background-color:  rgb(0, 153, 255);
+   border-radius: 10px;
+   color: white;
+   padding: 7px;
+   display: flex;
+   justify-content: space-evenly;
+}
+span {
+   color: white;
+}
+
+
+
 
 <!--start services-->
 .container {
@@ -162,3 +223,56 @@ width:900px;
 <!--end upper projects-->
 
 
+
+.container {
+    text-align: center;
+    padding: 60px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    background-color: #f0f8ff;
+}
+
+.contact-card i {
+    margin-bottom: 10px;
+    font-size: 2em; 
+}
+
+.contact-card:nth-child(1) i, 
+.contact-card:nth-child(3) i {
+    color: #A9EEFF; 
+}
+
+.contact-card:nth-child(2) i {
+    color: #FFD0D9; 
+}
